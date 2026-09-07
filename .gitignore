@@ -1,3 +1,39 @@
-demo.py
-venv
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+
+# Build / generated files
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Environment files
 .env
+.env.*
+
+# Python cache (if used for scripts/tools)
+__pycache__/
+*.py[cod]
+
+# Java compiled files (if Java code is added later)
+*.class
+target/
+
+# Local project files
+*.local

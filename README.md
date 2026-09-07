@@ -8,20 +8,24 @@ A collection of notes for **B.Tech CSE 1st Year**, covering all major subjects a
 First-1-Year-Notes/
 │
 ├── Human-Values-Notes/
+|   ├── All_Syllabus.md
 │   ├── Module1-Notes.md
 │   └── Module2-Notes.md
 │
 ├── Language-Skills-Notes/
+|   ├── All_Syllabus.md
 │   ├── Module1-Notes.md
 │   ├── Module2-Notes.md
 │   └── Module3-Notes.md
 │
 ├── Maths-Notes/
+|   ├── All_Syllabus.md
 │   ├── module1-notes.md
 │   ├── module2-notes.md
 │   └── module3-notes.md
 │
 ├── PSPJ-JAVA-Notes/
+|   ├── All_Syllabus.md
 │   ├── Module1-Notes.md
 │   ├── Module2-Notes.md
 │   └── Module3-Notes.md

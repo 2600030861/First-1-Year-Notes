@@ -1,43 +1,52 @@
-# Module 2: Vocabulary & Word Precision
+# Language Skills for Engineers — Module 2: Vocabulary and Word Precision
+### Merged Notes (Session-wise notes + Detailed notes combined by topic)
 
-> **Who this is for:** Beginners with no prior background in formal vocabulary study. Every concept is explained from first principles with simple examples.
+> Each heading is tagged with the **Session** it belongs to from the session-wise notes. Content that only appears in the detailed notes is folded into the session it expands on, and clearly marked as an expansion.
 
 ---
 
-## 1. How Professional Vocabulary Is Built
+## 🟩 SESSION 5 — How Professional Vocabulary is Built
 
-### The Core Idea
-Professional vocabulary isn't a separate "special" language — it's your everyday vocabulary refined for **precision, formality, and audience appropriateness**. It grows through exposure, deliberate learning, and practice.
+**Aim:** Understand how words are formed (roots/prefixes/suffixes) to decode unfamiliar technical vocabulary and build comprehension.
 
-### Building Blocks of Professional Vocabulary
+### Word Parts *(very likely fill-in/match question)*
+| Part | Definition | Example |
+|---|---|---|
+| Root | Core meaning of a word | *bio* = life, *geo* = earth |
+| Prefix | Added **before** a word | *re-* = again, *inter-* = between |
+| Suffix | Added **after** a word | *-tion* = process, *-ment* = result |
+
+**Worked Examples**
+- **Telecommunication** = *tele* (distance) + *communication* (exchange of info)
+- **Automation** = *auto* (self) + *-tion* (process)
+
+**[Expanded — detailed notes] Building Blocks of Professional Vocabulary**
 
 | Building Block | Explanation | Example |
 |---|---|---|
-| **Roots** | The core meaning-unit of a word, often from Latin/Greek | *"struct"* (to build) → construct, structure, instruct |
-| **Prefixes** | Added before a root to change meaning | *"re-"* (again) → rebuild, restart, retest |
-| **Suffixes** | Added after a root to change word form (noun/verb/adjective) | *"-tion"* (makes a noun) → construction, instruction |
-| **Word Families** | Groups of related words sharing a root | analyze (verb), analysis (noun), analytical (adjective), analytically (adverb) |
+| Roots | Core meaning-unit, often from Latin/Greek | *"struct"* (to build) → construct, structure, instruct |
+| Prefixes | Added before a root to change meaning | *"re-"* (again) → rebuild, restart, retest |
+| Suffixes | Added after a root to change word form (noun/verb/adjective) | *"-tion"* (makes a noun) → construction, instruction |
+| Word Families | Groups of related words sharing a root | analyze (verb), analysis (noun), analytical (adjective), analytically (adverb) |
 
-### How Vocabulary Grows Over a Career
-1. **Reading widely** — technical papers, professional emails, news, reports.
-2. **Active noticing** — pausing on unfamiliar or precise words instead of skipping them.
-3. **Contextual learning** — understanding a word through the sentence it appears in, not just a dictionary definition.
-4. **Repetition and usage** — using a new word in your own writing/speech multiple times to make it stick.
-5. **Field-specific exposure** — engineers build vocabulary specific to their domain (e.g., "latency," "throughput," "tolerance," "iteration").
+**How Vocabulary Grows Over a Career** *(detailed notes)*
+1. Reading widely — technical papers, professional emails, news, reports.
+2. Active noticing — pausing on unfamiliar or precise words instead of skipping them.
+3. Contextual learning — understanding a word through the sentence it appears in, not just a dictionary definition.
+4. Repetition and usage — using a new word in your own writing/speech multiple times to make it stick.
+5. Field-specific exposure — e.g. engineers build vocabulary like "latency," "throughput," "tolerance," "iteration."
 
-**Simple analogy:** Building vocabulary is like building a toolbox. A beginner has a hammer for everything. An expert has the exact right tool (word) for each specific job (meaning).
+**Analogy:** Building vocabulary is like building a toolbox. A beginner has a hammer for everything. An expert has the exact right tool (word) for each specific job (meaning).
 
----
+### Precision in Word Choice
+- **Denotation vs. Connotation**
+  - Denotation = literal/dictionary meaning
+  - Connotation = emotional/cultural feeling a word carries
+  - Example: *"self-assured"* (positive connotation) vs. *"arrogant"* (negative connotation) — describe similar traits, different feel.
+- **Commonly Confused Words** — use accurately: *effect* (noun, result) vs. *affect* (verb, to influence); *accepted* (agreed to) vs. *excepted* (excluded).
 
-## 2. Precision in Word Choice
-
-### What is Precision?
-Precision means choosing the **exact word** that conveys your intended meaning — not a "close enough" word.
-
-### Why Precision Matters in Engineering
+**[Expanded — detailed notes] Why Precision Matters & Vague vs. Precise Examples**
 Vague word choice can create ambiguity in specifications, reports, and instructions — leading to costly misunderstandings.
-
-### Examples: Vague vs. Precise
 
 | Vague | Precise | Why It's Better |
 |---|---|---|
@@ -46,25 +55,25 @@ Vague word choice can create ambiguity in specifications, reports, and instructi
 | "Make it better." | "Optimize the algorithm to reduce time complexity from O(n²) to O(n log n)." | Specifies exactly what "better" means. |
 | "A lot of users complained." | "42% of surveyed users reported login failures." | Quantifies the claim. |
 
-### Near-Synonyms Are Not Identical
-Many words seem similar but carry different shades of meaning (called **connotation**).
-
+**Near-Synonyms Are Not Identical** *(expands on denotation/connotation above)*
 | Word Group | Subtle Difference |
 |---|---|
-| *error* vs. *bug* vs. *defect* vs. *fault* | "Error" = general mistake; "bug" = informal term for a coding flaw; "defect" = formal, often used in QA/testing; "fault" = often used in hardware/systems context |
-| *fast* vs. *rapid* vs. *swift* vs. *hasty* | "Hasty" implies carelessness, while "swift" implies skillful speed |
+| *error* vs. *bug* vs. *defect* vs. *fault* | "Error" = general mistake; "bug" = informal coding flaw; "defect" = formal, QA/testing; "fault" = hardware/systems context |
+| *fast* vs. *rapid* vs. *swift* vs. *hasty* | "Hasty" implies carelessness; "swift" implies skillful speed |
 | *change* vs. *modify* vs. *revise* vs. *overhaul* | "Overhaul" implies a complete, major change; "modify" implies a smaller adjustment |
 
 **Tip:** When unsure which word to use, ask: *"What is the exact idea I want to express, and does this word match it precisely?"*
 
----
+### Professional/Corporate Vocabulary *(definitions — likely direct exam question)*
+| Term | Meaning |
+|---|---|
+| Stakeholder | A person/group with an interest or concern in a project |
+| Deadline | The latest time/date something should be completed |
+| Deliverable | A thing to be provided, esp. as an output of a project |
+| Milestone | A significant stage or event in a project's development |
+| Accountability | Being accountable; responsibility |
 
-## 3. Professional and Corporate Vocabulary
-
-### What is Professional Vocabulary?
-The set of words and expressions commonly used in workplace communication — emails, meetings, reports — that signal formality, competence, and clarity.
-
-### Common Professional Vocabulary Categories
+**[Expanded — detailed notes] Professional Vocabulary Categories**
 
 **A. Words for Actions/Requests**
 | Casual | Professional |
@@ -83,70 +92,56 @@ The set of words and expressions commonly used in workplace communication — em
 **C. Words for Status/Progress**
 - *in progress*, *pending*, *on track*, *behind schedule*, *finalized*, *pending approval*
 
-### Caution
-Professional vocabulary should still be **clear**, not just impressive-sounding. Using professional words correctly is good; using them to sound fancy while confusing the reader defeats the purpose (see Section 9 on corporate-speak).
+**Caution:** Professional vocabulary should still be **clear**, not just impressive-sounding. Using professional words correctly is good; using them to sound fancy while confusing the reader defeats the purpose (see Session 7 on corporate-speak).
 
 ---
 
-## 4. Technical vs. General Vocabulary
+## 🟩 SESSION 6 — Technical vs. General Vocabulary
 
-### The Distinction
+**Aim:** Distinguish technical vs. general vocabulary; use hedging/softening language appropriately.
 
+### Technical vs. General Vocabulary
+| | Technical Vocabulary | General Vocabulary |
+|---|---|---|
+| Definition | Specialized words for specific fields | Common, everyday words |
+| Example | *Algorithm*, *Myocardial Infarction* | *Step-by-step instructions*, *Heart attack* |
+| Benefit | Precision, accuracy, avoids ambiguity | Connection, clarity, easy to understand |
+| Used for | Experts, research papers | General audiences, everyday talk |
+
+> **Key takeaway:** Be precise when you must; be clear so others can understand. Explaining technical ideas to non-technical audiences = replace jargon with familiar words, examples, analogies.
+
+**[Expanded — detailed notes] The Distinction, in Detail**
 | Type | Definition | Example |
 |---|---|---|
-| **General Vocabulary** | Words used in everyday, non-specialized communication | "increase," "problem," "connect" |
-| **Technical Vocabulary** | Words with specific meaning within a field, often unfamiliar to outsiders | "throughput," "latency," "compiler," "API," "algorithm" |
+| General Vocabulary | Words used in everyday, non-specialized communication | "increase," "problem," "connect" |
+| Technical Vocabulary | Words with specific meaning within a field, often unfamiliar to outsiders | "throughput," "latency," "compiler," "API," "algorithm" |
 
-### Why This Distinction Matters
-- **Same word, different meaning in different fields:**
-  - *"Bug"* (general) = insect; *"bug"* (software) = a flaw in code.
-  - *"Driver"* (general) = person who drives; *"driver"* (computer) = software that controls hardware.
-- **Technical vocabulary is efficient among experts** but creates barriers with non-experts (see Section 5).
+**Same word, different meaning in different fields:**
+- *"Bug"* (general) = insect; *"bug"* (software) = a flaw in code.
+- *"Driver"* (general) = person who drives; *"driver"* (computer) = software that controls hardware.
 
-### Building Technical Vocabulary
+**Building Technical Vocabulary:**
 1. Learn terms **in context** (from documentation, textbooks, real code/specs) rather than memorizing isolated definitions.
 2. Understand the concept behind the term, not just the label.
 3. Practice using the term in a sentence related to your own project/work.
 
----
+**[Expanded — detailed notes] Explaining Technical Ideas to Non-Technical Audiences** *(expands the key takeaway above)*
+A hallmark of a truly skilled engineer is the ability to "translate" technical language into something simple.
 
-## 5. Explaining Technical Ideas to Non-Technical Audiences
+1. **Use Analogies** — *"A firewall is like a security guard that checks everyone entering a building before letting them in."*
+2. **Avoid Jargon or Define It Immediately** — ❌ "We need to reduce the API's latency." → ✅ "We need to make the system respond faster when other software requests information from it (this delay is called 'latency')."
+3. **Focus on Impact, Not Mechanism** — ❌ "We refactored the backend to use a microservices architecture." → ✅ "We restructured the system so it will be more reliable and easier to update in the future."
+4. **Use the "Layered Explanation" Approach** — start with a one-sentence simple summary, add detail only if asked.
+   - Layer 1 (Simple): "The app crashed because it ran out of memory."
+   - Layer 2 (More detail): "Specifically, a process kept allocating memory without releasing it — this is called a memory leak."
+5. **Avoid Acronyms Without Explanation** — always expand on first use: "Application Programming Interface (API)."
 
-### The Core Skill
-A hallmark of a truly skilled engineer is the ability to explain complex ideas simply — this is called **"translating" technical language**.
+### Collocations vs. Phrasal Verbs
+- **Collocations:** words that naturally go together → *make a decision*, *heavy rain*, *conduct research*.
+- **Phrasal Verbs:** verb + preposition/adverb = new meaning → *carry out*, *set up*, *turn off*.
 
-### Techniques
-
-**1. Use Analogies**
-Compare the technical concept to something familiar.
-- *"A firewall is like a security guard that checks everyone entering a building before letting them in."*
-- *"RAM is like a desk — the bigger the desk, the more things you can work on at once without slowing down."*
-
-**2. Avoid Jargon or Define It Immediately**
-- ❌ "We need to reduce the API's latency."
-- ✅ "We need to make the system respond faster when other software requests information from it (this delay is called 'latency')."
-
-**3. Focus on Impact, Not Mechanism**
-Non-technical audiences often care more about **what it means for them** than **how it works**.
-- ❌ "We refactored the backend to use a microservices architecture."
-- ✅ "We restructured the system so it will be more reliable and easier to update in the future."
-
-**4. Use the "Layered Explanation" Approach**
-Start with a one-sentence simple summary, then add detail only if the listener wants it.
-- Layer 1 (Simple): "The app crashed because it ran out of memory."
-- Layer 2 (More detail, if asked): "Specifically, a process kept allocating memory without releasing it — this is called a memory leak."
-
-**5. Avoid Acronyms Without Explanation**
-Always expand an acronym the first time you use it: "Application Programming Interface (API)."
-
----
-
-## 6. Collocations and Natural Usage
-
-### What is a Collocation?
-A **collocation** is a combination of words that native/fluent speakers naturally use together — even though other combinations might be grammatically correct, they sound "unnatural."
-
-### Examples
+**[Expanded — detailed notes] Collocations and Natural Usage**
+A **collocation** is a combination of words that fluent speakers naturally use together — other combinations may be grammatically correct but sound "unnatural."
 
 | Natural Collocation | Unnatural (Grammatically Possible but Wrong) |
 |---|---|
@@ -155,67 +150,35 @@ A **collocation** is a combination of words that native/fluent speakers naturall
 | "raise a concern" | ~~"lift a concern"~~ |
 | "strong coffee" | ~~"powerful coffee"~~ |
 | "heavy rain" | ~~"strong rain"~~ |
-| "commit an error" | ~~"make an error"~~ (Note: "make a mistake" IS correct — collocations are word-specific!) |
+| "commit an error" | ~~"make an error"~~ (note: "make a mistake" IS correct — collocations are word-specific!) |
 
-### Common Engineering/Technical Collocations
-- "run a test" / "run a program" / "run a simulation"
-- "meet a deadline" / "meet requirements" / "meet specifications"
-- "conduct an experiment" / "conduct an analysis"
-- "resolve an issue" / "address a concern" / "fix a bug"
+**Common Engineering/Technical Collocations:** "run a test/program/simulation," "meet a deadline/requirements/specifications," "conduct an experiment/analysis," "resolve an issue" / "address a concern" / "fix a bug."
 
-### Why Collocations Matter
-Using the wrong collocation doesn't create a grammar error, but it immediately signals non-native or unnatural phrasing to a fluent reader — reducing the professionalism of your writing.
+**Why they matter:** Using the wrong collocation isn't a grammar error, but it signals non-native or unnatural phrasing to a fluent reader — reducing the professionalism of your writing.
 
-### How to Learn Collocations
-- Read authentic professional/technical texts and **notice word pairings**.
-- Use a collocation dictionary or corpus tool when unsure.
-- When learning a new verb, learn which nouns it typically pairs with.
+**How to learn them:** Read authentic professional/technical texts and notice word pairings; use a collocation dictionary or corpus tool when unsure; when learning a new verb, learn which nouns typically pair with it.
 
----
-
-## 7. Idioms, Phrasal Verbs, and Professional Expressions — Use Carefully
-
-### What Are They?
-
+**[Expanded — detailed notes] Idioms, Phrasal Verbs, and Professional Expressions**
 | Term | Definition | Example |
 |---|---|---|
-| **Idiom** | A phrase whose meaning isn't obvious from its individual words | "hit the ground running" = start something with full energy immediately |
-| **Phrasal Verb** | A verb + preposition/particle combination with a distinct meaning | "look into" = investigate; "put off" = postpone |
-| **Professional Expression** | Common set phrases used in workplace contexts | "moving forward," "on the same page," "bring to the table" |
+| Idiom | A phrase whose meaning isn't obvious from its individual words | "hit the ground running" = start something with full energy immediately |
+| Phrasal Verb | A verb + preposition/particle combination with a distinct meaning | "look into" = investigate; "put off" = postpone |
+| Professional Expression | Common set phrases used in workplace contexts | "moving forward," "on the same page," "bring to the table" |
 
-### Common Professional Phrasal Verbs
+**Common Professional Phrasal Verbs:** set up (establish/configure), roll out (launch/release), follow up (check on progress), carry out (perform/execute), back up (support / make a copy).
 
-| Phrasal Verb | Meaning | Example |
-|---|---|---|
-| set up | establish/configure | "Set up the test environment." |
-| roll out | launch/release | "We'll roll out the update next week." |
-| follow up | check on progress later | "I'll follow up on this tomorrow." |
-| carry out | perform/execute | "Carry out the tests before deployment." |
-| back up | support / make a copy | "Back up your data" / "Back up your argument with evidence." |
+**The risk of misusing idioms:**
+1. Overuse sounds unnatural or try-hard, especially from a learner.
+2. Idioms can be misunderstood by international/non-native audiences — defeats the purpose of clear communication (ties to Module 1's "intelligibility" concept).
+3. Some idioms are too informal for formal writing: ❌ "We need to nip this bug in the bud." → ✅ "We need to address this bug immediately, before it affects other components."
+4. Literal translation errors — idioms don't translate word-for-word across languages.
 
-### The Risk of Misusing Idioms
-1. **Overuse sounds unnatural or try-hard**, especially from a learner.
-2. **Idioms can be misunderstood by international/non-native audiences**, defeating the purpose of clear communication (connects to Module 1's "intelligibility" concept).
-3. **Some idioms are informal and inappropriate for formal writing.**
-   - ❌ (in a formal report) "We need to nip this bug in the bud."
-   - ✅ "We need to address this bug immediately, before it affects other components."
-4. **Literal translation errors**: idioms don't translate word-for-word across languages, so directly translating an idiom from your native language into English often produces confusing or incorrect phrases.
+**Best practice:** Use idioms/phrasal verbs only when widely understood, appropriate for the register, and used naturally (not forced in for effect).
 
-### Best Practice
-Use idioms/phrasal verbs when they are:
-- Widely understood
-- Appropriate for the register (avoid very casual idioms in formal writing)
-- Used correctly and naturally (not forced in for effect)
+### Tone-Carrying Words
+Reveal attitude/certainty; make language polite, respectful, persuasive (*please, appreciate, confidently*).
 
----
-
-## 8. Tone-Carrying Words
-
-### What Are Tone-Carrying Words?
-Certain words carry emotional or attitudinal weight beyond their literal meaning — they shape how a reader *feels* about your message, not just what they understand.
-
-### Examples: Same Meaning, Different Tone
-
+**[Expanded — detailed notes] Same Meaning, Different Tone**
 | Neutral | Positive Tone | Negative Tone |
 |---|---|---|
 | "changed" | "improved," "refined" | "altered carelessly," "tampered with" |
@@ -223,33 +186,48 @@ Certain words carry emotional or attitudinal weight beyond their literal meaning
 | "different" | "unique," "innovative" | "unusual," "inconsistent" |
 | "asked" | "requested," "inquired" | "demanded," "interrogated" |
 
-### Why This Matters for Engineers
-- **In bug reports/reviews:** "The developer *failed* to handle edge cases" (harsh) vs. "The code does not currently handle edge cases" (neutral, professional).
-- **In emails:** "You *need* to send this today" (demanding) vs. "Could you please send this today?" (polite, tone-appropriate)
+**Why this matters for engineers:**
+- In bug reports/reviews: "The developer *failed* to handle edge cases" (harsh) vs. "The code does not currently handle edge cases" (neutral, professional).
+- In emails: "You *need* to send this today" (demanding) vs. "Could you please send this today?" (polite, tone-appropriate).
 
-### Softening and Hedging Language
-Professional writing often uses **hedging words** to sound less absolute/aggressive, especially when giving feedback or making claims:
-- "This *might* cause performance issues" (softer) vs. "This *will* cause performance issues" (absolute, only use if certain)
+### Hedging & Softening Language
+Cautious/qualifying words that soften absolute claims.
+- Absolute: *Night shifts cause sleep disorders.*
+- Hedged: *Night shifts might/may/possibly cause sleep disorders.*
+
+**[Expanded — detailed notes]**
+- "This *might* cause performance issues" (softer) vs. "This *will* cause performance issues" (absolute — only use if certain)
 - "It *appears* that..." / "This *suggests*..." / "It *seems* likely that..."
+
+### Assertive vs. Tentative Language
+| Type | Shows | Used for |
+|---|---|---|
+| Assertive | Confidence/certainty | Facts, instructions, decisions |
+| Tentative | Caution/uncertainty | Opinions, suggestions, diplomacy |
 
 ---
 
-## 9. Avoiding Clichés, Buzzwords, and Empty Corporate-Speak
+## 🟩 SESSION 7 — Applying Vocabulary Precision
 
-### What Are These?
+**Aim:** Avoid vague corporate language; use AI tools responsibly to grow vocabulary.
 
-| Term | Definition | Example |
+### Clichés vs. Buzzwords vs. Corporate-Speak
+| Term | Meaning | Example |
 |---|---|---|
-| **Cliché** | An overused expression that has lost its original impact | "think outside the box," "at the end of the day" |
-| **Buzzword** | A trendy term used to sound impressive, often vague | "synergy," "leverage," "disruptive," "paradigm shift" |
-| **Corporate-Speak** | Vague, inflated business language that sounds important but says little | "We need to circle back and ideate on this holistically." |
+| Cliché | Overused expression, lost impact | *Think outside the box*, *At the end of the day* |
+| Buzzword | Trendy word used to sound impressive | *Innovation, Disruption, Scalable, Agile* |
+| Corporate-speak | Long, complex, buzzword-filled sentences hiding the real message | — |
 
-### Why Avoid Them
-1. **They often replace real substance with vague-sounding filler.**
-2. **Overuse makes writing feel insincere or lazy.**
-3. **They can obscure the actual meaning**, which is especially dangerous in technical/engineering communication where precision matters.
+**Bad → Good rewrite (classic exam example):**
+- ❌ *"We are leveraging synergies to optimize impactful outcomes."*
+- ✅ *"We are working together to improve results."*
 
-### Examples: Corporate-Speak vs. Substance
+> **Solution:** Use plain English, be specific, shorten sentences, focus on meaning over style.
+
+**[Expanded — detailed notes] Why Avoid Them & More Rewrite Examples**
+1. They often replace real substance with vague-sounding filler.
+2. Overuse makes writing feel insincere or lazy.
+3. They can obscure the actual meaning — especially dangerous in technical/engineering communication where precision matters.
 
 | Corporate-Speak (Vague) | With Substance (Clear) |
 |---|---|
@@ -258,63 +236,36 @@ Professional writing often uses **hedging words** to sound less absolute/aggress
 | "This is a paradigm shift in our approach." | "This is a significant change in how we approach the problem." |
 | "We're pivoting to a more agile framework." | "We're changing our process to work in shorter, more flexible cycles." |
 
-### How to Write With Substance
-1. **Be specific** — replace vague claims with concrete facts, numbers, or examples.
-2. **Avoid stacking buzzwords** — one vague term is bad; three in a row is worse.
-3. **Ask yourself:** *"If I removed this phrase, would the reader lose any actual information?"* If not, cut it.
-4. **Prefer plain, direct verbs** over inflated business jargon ("use" instead of "utilize," "help" instead of "facilitate," when precision allows).
+**How to write with substance:**
+1. Be specific — replace vague claims with concrete facts, numbers, or examples.
+2. Avoid stacking buzzwords — one vague term is bad; three in a row is worse.
+3. Ask: *"If I removed this phrase, would the reader lose any actual information?"* If not, cut it.
+4. Prefer plain, direct verbs over inflated jargon ("use" instead of "utilize," "help" instead of "facilitate").
+
+### AI for Vocabulary Growth — 4 uses
+1. Generate contextual examples (how a word is used in different scenarios)
+2. Check nuance (e.g., *"stubborn"* vs. *"determined"*)
+3. Verify collocations (which words naturally pair)
+4. Build a personal word bank (track words, meanings, examples, collocations)
+
+**Best Practices:** Don't just copy AI-generated sentences. Always verify context, tone, and collocations. Use good prompts to get useful examples.
+
+**[Expanded — detailed notes] Effective Strategies for Using AI**
+1. **Context-based word learning** — *"Give me 5 sentences using the word 'mitigate' in an engineering context."*
+2. **Precision practice** — *"What's the difference between 'error,' 'bug,' 'defect,' and 'fault'? Give examples of when to use each."*
+3. **Collocation checking** — *"Is 'raise an issue' or 'lift an issue' the correct collocation?"*
+4. **Register/tone conversion practice** — *"Rewrite this in a more formal tone" / "Make this sound more concise and professional."*
+5. **Buzzword/cliché detection** — *"Identify any clichés or corporate buzzwords in this paragraph and suggest clearer alternatives."*
+6. **Building a personal vocabulary log** — after each AI interaction, note 2–3 new words/expressions with example sentences, and use them within the week (active recall beats passive reading).
+
+**Cautions:** Don't just copy AI's suggested word without understanding it — check the meaning and try using it independently. AI-generated vocabulary can sometimes be overly formal or slightly unnatural — cross-check with real-world usage when possible. The goal is internalizing vocabulary, not outsourcing word choice to AI permanently.
 
 ---
 
-## 10. Using AI for Vocabulary Growth
+## Quick Revision Summary (session-tagged, last-minute recall)
 
-AI tools can meaningfully accelerate vocabulary development when used actively, not passively.
+- **S5:** Root/Prefix/Suffix + examples (telecommunication, automation) + word families. Denotation vs. connotation. Commonly confused words + near-synonyms (error/bug/defect/fault). Corporate vocabulary terms (stakeholder, deadline, deliverable, milestone, accountability) + expanded action/meeting/status word categories.
+- **S6:** Technical vs. General vocabulary (table) + same-word-different-field examples (bug, driver). Explaining technical ideas to non-technical audiences (analogies, avoid jargon, focus on impact, layered explanation). Collocations vs. phrasal verbs + idioms and their risks. Tone-carrying words. Hedging/softening. Assertive vs. tentative language.
+- **S7:** Clichés vs. buzzwords vs. corporate-speak (with bad→good rewrite + extra rewrite examples). 4(+6) ways to use AI for vocabulary growth + best practices/cautions.
 
-### Effective Strategies
-
-**1. Context-based word learning**
-- Ask AI: *"Give me 5 sentences using the word 'mitigate' in an engineering context."*
-- This shows how a word behaves in real usage, not just its dictionary definition.
-
-**2. Precision practice**
-- Ask AI: *"What's the difference between 'error,' 'bug,' 'defect,' and 'fault'? Give examples of when to use each."*
-- This builds the fine-grained precision discussed in Section 2.
-
-**3. Collocation checking**
-- Ask AI: *"Is 'raise an issue' or 'lift an issue' the correct collocation?"*
-- Useful for checking natural word pairings before submitting formal writing.
-
-**4. Register/tone conversion practice**
-- Ask AI to rewrite a sentence in different tones: *"Rewrite this in a more formal tone" / "Make this sound more concise and professional."*
-- Compare versions to learn how word choice shifts tone.
-
-**5. Buzzword/cliché detection**
-- Ask AI to review your writing: *"Identify any clichés or corporate buzzwords in this paragraph and suggest clearer alternatives."*
-
-**6. Building a personal vocabulary log**
-- After each AI interaction, note down 2–3 new words/expressions with example sentences, and try using them yourself within the week — active recall beats passive reading.
-
-### Cautions
-- **Don't just copy AI's suggested word without understanding it** — always check the meaning and try using it independently afterward.
-- **AI-generated vocabulary can sometimes be overly formal or slightly unnatural** — cross-check with real-world usage (books, articles, native-level writing) when possible.
-- The goal is **internalizing** vocabulary, not simply outsourcing word choice to AI permanently.
-
----
-
-## Quick Summary Table
-
-| Topic | One-Line Takeaway |
-|---|---|
-| Building Vocabulary | Grows through reading, noticing, and repeated real use — not memorization alone. |
-| Precision | Choose the exact word for the exact meaning; avoid "close enough." |
-| Professional Vocabulary | Formal workplace words signal competence — but must stay clear. |
-| Technical vs. General | Technical terms are precise among experts but need translation for outsiders. |
-| Explaining to Non-Technical Audiences | Use analogies, avoid jargon, focus on impact, layer detail. |
-| Collocations | Certain word pairings just "sound right" — learn them through exposure. |
-| Idioms & Phrasal Verbs | Use only when clear, appropriate, and natural — avoid overuse or literal translation. |
-| Tone-Carrying Words | Word choice shapes emotional impact, not just meaning. |
-| Avoiding Corporate-Speak | Replace vague buzzwords with specific, substantive language. |
-| AI for Vocabulary | Use AI to learn *why*, practice actively, and build lasting vocabulary — not just to fix words passively. |
-
----
-*End of Module 2 Notes*
+**Likely exam angles:** define root/prefix/suffix + give own example; denotation vs. connotation with a pair of words; match corporate-vocabulary terms to definitions; rewrite a "corporate-speak" sentence in plain English; identify assertive vs. tentative in given sentences; hedge a given absolute statement; distinguish near-synonyms (error/bug/defect/fault); identify a wrong collocation and correct it.

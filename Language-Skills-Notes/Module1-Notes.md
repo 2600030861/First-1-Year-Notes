@@ -1,224 +1,199 @@
-# Module 1: Foundations of English for the Engineer
-## Accuracy, Clarity & Register
+# Language Skills for Engineers — 
+## Module 1: Foundations of English for Engineers
+### Merged Notes (Session-wise notes + Detailed notes combined by topic)
 
-> **Who this is for:** Beginners with no prior background in formal English grammar or technical communication. Every concept is explained from first principles with simple examples.
+> Each heading is tagged with the **Session** it belongs to from the session-wise notes. Topics that only appear in the detailed notes (no session in the original slides) are tagged **[Extra — not tied to a session]** and placed where they fit best conceptually.
 
 ---
 
-## 1. Why Language Accuracy Matters Professionally
+## 🟦 SESSION 1 — Introduction & Why Language Accuracy Matters
 
-### The Core Idea
-As an engineer, your ideas are only as useful as your ability to communicate them. A brilliant design explained in a confusing email, or a bug report full of grammatical ambiguity, can cost time, money, and trust.
+### Why Accuracy Matters
+**Key Formula (important for short-answer):**
+> Technical Expertise + Communication Discipline (Clarity + Structure + Audience Focus) = Engineering Impact (Faster Decisions + Trust + Lower Risk)
 
-### Key Reasons Accuracy Matters
+- Accurate communication converts expertise into impact — the value of engineering work depends on how clearly results are shared.
+- **Clarity** → avoids misunderstanding, shows audience consideration, builds trust, demonstrates respect, leaves a lasting impression.
+- **Credibility** → built by citing sources, showing data, open body language, speaking clearly to audience needs.
+
+**Expanded reasons (from detailed notes):**
+
 | Reason | Explanation |
 |---|---|
 | **Credibility** | Errors in writing make readers doubt your technical competence, even if your work is excellent. |
 | **Safety** | In engineering documentation (manuals, specifications, safety instructions), an unclear sentence can lead to real-world accidents. |
-| **Efficiency** | Ambiguous writing forces colleagues to ask for clarification, wasting time. Accurate writing gets understood the first time. |
-| **Global Collaboration** | Engineers today work in multinational teams. Standard, accurate English ensures everyone — regardless of native language — understands the same thing. |
-| **Career Growth** | Reports, emails, resumes, and presentations are judged partly on language quality. Poor language can overshadow strong technical skills. |
+| **Efficiency** | Ambiguous writing forces colleagues to ask for clarification, wasting time. |
+| **Global Collaboration** | Standard, accurate English ensures multinational teams understand the same thing. |
+| **Career Growth** | Reports, emails, resumes, and presentations are judged partly on language quality. |
 
-**Simple analogy:** Think of language as the *packaging* for your technical ideas. Even the best product (your idea) can fail to sell if the packaging (your language) is torn or confusing.
+**Analogy:** Language is the *packaging* for your technical ideas — even the best product (idea) can fail to sell if the packaging (language) is torn or confusing.
 
----
+### 5-Minute Daily Improvement Routines *(list-type question likely)*
+1. Read emails aloud before sending
+2. "Draft Delay" — wait 2 minutes before sending
+3. Cut unnecessary words from drafts
+4. Read industry articles 10 min/day
+5. Write 3 clear sentences daily
+6. Swap weak words for precise terms
 
-## 2. Sentence Fundamentals
+### Grammar Focus: Subject–Verb Agreement
+| Incorrect | Correct |
+|---|---|
+| They goes to the gym. | They go to the gym. |
+| The paper or the ruler are in the desk. | The paper or the ruler **is** in the desk. |
+| The data *is* incomplete and the results *is* also wrong. | The data *are* incomplete and the results *are* also wrong. *(note: "data is" is now widely accepted informally in tech usage — check institution's preferred style)* |
 
-### What is a Sentence?
-A sentence is a group of words that expresses a **complete thought**. It must have:
-1. A **Subject** – who or what the sentence is about.
-2. A **Verb (Predicate)** – what the subject does or is.
+> **Rule:** Subject and verb must agree in number (singular/singular, plural/plural). With "or"/"nor," the verb agrees with the nearer subject.
 
-**Example:**
-- "The engineer tests the circuit." 
-  - Subject = *The engineer*
-  - Verb = *tests*
-  - Object = *the circuit*
+### [Extra — not tied to a session] Sentence Fundamentals
+A sentence expresses a **complete thought** and needs a **Subject** (who/what) + **Verb/Predicate** (what it does or is).
+Example: *"The engineer tests the circuit."* → Subject = *the engineer*, Verb = *tests*, Object = *the circuit*.
 
-### Types of Sentences (by Structure)
-
+**Types by structure:**
 | Type | Definition | Example |
 |---|---|---|
-| **Simple Sentence** | One independent clause (one subject + one verb, complete thought) | "The server crashed." |
-| **Compound Sentence** | Two independent clauses joined by a conjunction (and, but, or, so) | "The server crashed, but the backup worked." |
-| **Complex Sentence** | One independent clause + one dependent clause | "Because the code had a bug, the server crashed." |
-| **Compound-Complex** | Combination of the above | "Because the code had a bug, the server crashed, but the backup saved the data." |
+| Simple | One independent clause | "The server crashed." |
+| Compound | Two independent clauses + conjunction (and, but, or, so) | "The server crashed, but the backup worked." |
+| Complex | Independent clause + dependent clause | "Because the code had a bug, the server crashed." |
+| Compound-Complex | Combination of both | "Because the code had a bug, the server crashed, but the backup saved the data." |
 
-### Types of Sentences (by Purpose)
-- **Declarative** – states a fact: "The motor runs at 1500 RPM."
-- **Interrogative** – asks a question: "Does the motor run at 1500 RPM?"
-- **Imperative** – gives a command: "Check the motor speed."
-- **Exclamatory** – expresses strong emotion: "The motor failed again!"
+**Types by purpose:** Declarative (states fact), Interrogative (asks question), Imperative (gives command), Exclamatory (expresses emotion).
 
-### Common Sentence-Level Building Blocks
-- **Clause:** a group of words with a subject and verb (can be independent or dependent).
-- **Phrase:** a group of related words *without* a subject-verb pair (e.g., "in the morning," "running fast").
-- **Independent Clause:** can stand alone as a sentence.
-- **Dependent (Subordinate) Clause:** cannot stand alone; needs an independent clause (e.g., "although the test failed").
+**Building blocks:** Clause (subject+verb, independent or dependent), Phrase (no subject-verb pair), Independent Clause (stands alone), Dependent/Subordinate Clause (cannot stand alone).
 
 ---
 
-## 3. Common Error Patterns of Indian/Engineering English
+## 🟦 SESSION 2 — Accuracy, Clarity & Register
 
-Many learners in India (and technical fields generally) develop certain recurring habits picked up from regional languages or casual spoken English. Awareness is the first step to correction.
+**Aim:** Correct errors caused by mother-tongue influence, build self-editing skills, use AI as a learning tool.
 
-### A. Subject-Verb Agreement Errors
-- ❌ "The data *is* incomplete and the results *is* also wrong."
-- ✅ "The data *are* incomplete and the results *are* also wrong." 
-  *(Note: "data" is technically plural, though "data is" is now widely accepted in informal/tech usage — check your institution's preferred style.)*
+### Translation Triads
+Think in mother tongue, but *translate the meaning*, not word-for-word.
 
-### B. Article Errors (a, an, the)
-Indian languages often lack direct equivalents of English articles, leading to omission or misuse.
-- ❌ "He is engineer working in software company."
-- ✅ "He is *an* engineer working in *a* software company."
+| Mother Tongue | Direct (wrong) | Correct English |
+|---|---|---|
+| Naku thala noppiga undhi | To me headache/pain is there | I have a headache |
 
-### C. Preposition Errors
-- ❌ "Discuss about the problem." 
-- ✅ "Discuss the problem." (discuss is never followed by "about")
-- ❌ "He is good in mathematics."
-- ✅ "He is good *at* mathematics."
+### Run-ons vs. Fragments
+- **Run-on sentence:** two complete sentences wrongly joined.
+  - ❌ *I finished my homework I went to bed.*
+  - ✅ *I finished my homework, and I went to bed.*
+- **Sentence fragment:** incomplete thought, missing subject/verb/completeness.
+  - ❌ *Because I was tired.*
+  - ✅ *Because I was tired, I went to bed early.*
 
-### D. Redundancy / Repetition (Pleonasm)
-- ❌ "Revert back to me" → ✅ "Revert to me" or "Reply to me"
+### Dangling Modifiers
+Phrase doesn't clearly modify the intended subject (subject is missing/misplaced).
+- ❌ *Walking to school, the rain started to fall.* (implies rain was walking)
+- ✅ *As I was walking to school, the rain started to fall.*
+
+### [Extra — not tied to a session] Common Error Patterns of Indian/Engineering English
+Recurring habits from regional languages or casual spoken English — awareness is the first step to correction.
+
+**Article Errors (a, an, the):**
+- ❌ "He is engineer working in software company." → ✅ "He is *an* engineer working in *a* software company."
+
+**Preposition Errors:**
+- ❌ "Discuss about the problem." → ✅ "Discuss the problem." (discuss is never followed by "about")
+- ❌ "He is good in mathematics." → ✅ "He is good *at* mathematics."
+
+**Redundancy / Repetition (Pleonasm):**
+- ❌ "Revert back to me" → ✅ "Revert to me" / "Reply to me"
 - ❌ "Repeat again" → ✅ "Repeat"
 - ❌ "Free gift" → ✅ "Gift"
 
-### E. Direct Translation from Native Language
+**Direct Translation from Native Language:**
 - ❌ "I am having a doubt." → ✅ "I have a doubt" / "I'm not sure about this."
 - ❌ "What is your good name?" → ✅ "What is your name?"
 
-### F. Tense Confusion
-- ❌ "I am completing the project since Monday." (mixing continuous tense with duration)
-- ✅ "I have been completing the project since Monday." OR "I completed the project on Monday."
+**Tense Confusion:**
+- ❌ "I am completing the project since Monday." → ✅ "I have been completing the project since Monday." / "I completed the project on Monday."
 
-### G. Overuse of Passive Voice
-- ❌ "It is being informed that the meeting is postponed by the committee."
-- ✅ "The committee postponed the meeting." (Active voice is usually clearer and more direct — important in engineering reports.)
+**Overuse of Passive Voice:**
+- ❌ "It is being informed that the meeting is postponed by the committee." → ✅ "The committee postponed the meeting."
 
-### H. Wordy/Formal-Sounding but Incorrect Phrasing
-- ❌ "Kindly do the needful."
-- ✅ "Please complete this task" / "Please proceed as required."
+**Wordy/Formal-Sounding but Incorrect Phrasing:**
+- ❌ "Kindly do the needful." → ✅ "Please complete this task."
+
+### Using AI as an Accuracy Tutor
+Ask AI to *explain*, not just fix:
+- "Correct only the mistakes. Explain why each correction is needed. Tell me which grammar rule applies."
+- "Analyze my mistakes. Tell me whether they are Grammar, Vocabulary, Tense, etc."
+
+**Expanded guidance (detailed notes):**
+1. **Grammar checking with explanations** — ask AI to explain *why*, e.g. *"Correct this sentence and explain the grammar rule: 'He don't like testing.'"*
+2. **Rewriting for register/tone** — ask AI to rewrite the same content formally vs. informally to see the difference.
+3. **Practice with common error patterns** — ask AI to generate practice sentences on your weak areas (articles, prepositions).
+4. **Proofreading assistance, not replacement** — try to spot errors yourself first, use AI to confirm.
+5. **Simplifying complex text** — ask AI to simplify a passage to check your own understanding.
+
+**Cautions:** Don't blindly trust AI output — cross-check important documents yourself or with a human reviewer. Understand the "why," not just the "what." AI can occasionally apply an overly formal/informal register — review context before using suggestions.
 
 ---
 
-## 4. Punctuation for Clarity
+## 🟦 SESSION 3 — Clarity Principles, Tone, Concision & Varieties
 
-Punctuation marks are traffic signals for readers — they show where to pause, stop, or connect ideas.
+### Four Core Clarity Principles *(very likely exam list — memorize order)*
+1. **One Idea Per Sentence** — avoid long, complex sentences.
+2. **Active vs. Passive Voice**
+   - Active → use when the *doer* matters (team updates, achievements). E.g., *The team submitted the report.*
+   - Passive → use when the *action/result* matters (lab reports, technical docs). E.g., *The report was submitted.*
+3. **Parallel Structure** — keep list items in the same grammatical form.
+   - ❌ *swimming, to run, cycling* → ✅ *swimming, running, cycling*
+4. **Avoid Ambiguity** — use specific, measurable terms so there's only one interpretation.
 
-| Mark | Purpose | Example |
+**Additional clarity principles (detailed notes):**
+- Use **concrete, specific words**: ❌ "There was an issue with the system." → ✅ "The server crashed due to a memory overflow."
+- Keep sentence length moderate (**15–20 words** average for technical writing).
+- Avoid unnecessary jargon for a general audience.
+- **Place modifiers close to what they describe:**
+  - ❌ "She almost drove her car for six hours." (implies she almost drove, but didn't)
+  - ✅ "She drove her car for almost six hours."
+
+### Register and Tone
+| Register | Style | Audience |
 |---|---|---|
-| **Period (.)** | Ends a complete sentence | "The test passed." |
-| **Comma (,)** | Separates items, clauses, or adds a pause | "The code compiled, but it crashed at runtime." |
-| **Semicolon (;)** | Joins two related independent clauses without a conjunction | "The build failed; the logs showed a memory leak." |
-| **Colon (:)** | Introduces a list, explanation, or elaboration | "The system needs three things: power, network, and storage." |
-| **Apostrophe (')** | Shows possession or contraction | "The engineer's laptop" / "It's broken" (it is) |
-| **Quotation Marks (" ")** | Indicates exact words or a quoted term | The function is called `"main()"`. |
-| **Hyphen (-)** | Joins compound words | "Real-time system," "well-designed code" |
-| **Parentheses ( )** | Adds extra, non-essential information | "The algorithm (developed in 2020) is still in use." |
+| Formal | Structured, objective, respectful, concise, solution-oriented | Manager/Principal |
+| Neutral | Clear, direct, matter-of-fact, collaborative, friendly | Colleague/Peer |
+| Informal | Casual, conversational | Friend |
 
-### Common Punctuation Mistakes
-- **Comma splice:** joining two full sentences with only a comma.
-  - ❌ "The test failed, we need to debug it."
-  - ✅ "The test failed; we need to debug it." OR "The test failed, so we need to debug it."
-- **Missing comma after introductory phrase:**
-  - ❌ "After the update the system crashed."
-  - ✅ "After the update, the system crashed."
-- **Apostrophe confusion (its vs. it's):**
-  - *its* = possessive ("The robot moved its arm.")
-  - *it's* = "it is" ("It's working correctly.")
-
----
-
-## 5. Clarity Principles
-
-Clarity means the reader understands your meaning **quickly and correctly**, without needing to re-read.
-
-### Principles for Clear Writing
-1. **One idea per sentence.** Don't cram multiple thoughts together.
-2. **Use concrete, specific words** instead of vague ones.
-   - ❌ "There was an issue with the system."
-   - ✅ "The server crashed due to a memory overflow."
-3. **Prefer active voice** (subject performs the action) over passive voice.
-   - ❌ "The bug was found by the tester."
-   - ✅ "The tester found the bug."
-4. **Avoid unnecessary jargon** when writing for a general audience.
-5. **Keep sentence length moderate** (15–20 words is a good average for technical writing).
-6. **Use parallel structure** in lists.
-   - ❌ "The engineer should test the code, debugging errors, and to write documentation."
-   - ✅ "The engineer should test the code, debug errors, and write documentation."
-7. **Place modifiers close to what they describe** to avoid confusion.
-   - ❌ "She almost drove her car for six hours." (implies she almost drove, but didn't)
-   - ✅ "She drove her car for almost six hours."
-
----
-
-## 6. Register and Tone
-
-### What is Register?
-**Register** is the level of formality in language, chosen based on the audience, purpose, and context.
-
-| Register | When Used | Example |
-|---|---|---|
-| **Formal** | Reports, official emails, academic writing | "I would like to request an extension for the project deadline." |
-| **Neutral/Semi-formal** | Workplace communication, team emails | "Can we push the deadline by two days?" |
-| **Informal** | Casual chats, texting friends | "Hey, can we push the deadline? Kinda swamped." |
-
-### Guidelines for Engineers
+**Expanded guidance for engineers (detailed notes):**
 - **Technical reports & documentation:** Always formal, objective, third-person where possible.
 - **Emails to seniors/clients:** Formal-to-neutral, polite, precise.
 - **Team chat/Slack messages:** Neutral to informal, but still professional (no slang with clients).
-- Avoid mixing registers within the same document — it looks inconsistent and unprofessional.
+- Avoid mixing registers within the same document — looks inconsistent and unprofessional.
 
-### What is Tone?
-**Tone** reflects the writer's attitude (e.g., respectful, urgent, apologetic, confident). Even factual writing has a tone based on word choice.
-- "The system *failed catastrophically*" (dramatic tone)
-- "The system *did not meet expected performance*" (neutral, professional tone)
+**Tone** reflects the writer's attitude (respectful, urgent, apologetic, confident) — even factual writing carries a tone through word choice:
+- "The system *failed catastrophically*" (dramatic tone) vs. "The system *did not meet expected performance*" (neutral, professional tone).
 
----
+### Concision — 4 Techniques
+1. Replace wordy phrases → *due to the fact that* → *because*
+2. Eliminate redundancies → *end result* → *result*
+3. Remove filler words → *basically, actually*
+4. Cut prepositional strings
 
-## 7. Concision (Being Concise)
+**Extra concision examples (detailed notes):**
 
-### What is Concision?
-Concision means expressing an idea in the **fewest words necessary**, without losing meaning. It is *not* about making writing short for its own sake — it's about cutting unnecessary words.
-
-### Techniques for Concise Writing
-
-**1. Remove redundant phrases**
 | Wordy | Concise |
 |---|---|
-| "due to the fact that" | "because" |
 | "at this point in time" | "now" |
 | "in order to" | "to" |
 | "a large number of" | "many" |
 | "make a decision" | "decide" |
 
-**2. Avoid unnecessary qualifiers**
-- ❌ "It is very extremely important to test the code."
-- ✅ "It is important to test the code."
+- Avoid unnecessary qualifiers: ❌ "It is very extremely important to test the code." → ✅ "It is important to test the code."
+- Use strong verbs instead of noun phrases: ❌ "We conducted an investigation of the failure." → ✅ "We investigated the failure."
 
-**3. Cut filler words**
-- ❌ "Basically, the system is, in a sense, working fine."
-- ✅ "The system is working fine."
+### Standard Varieties & Global Intelligibility
+- Use simple, standard vocabulary (*solve this problem*, not *figure this out*)
+- Pick **one** spelling variant (UK or US) and stay consistent
+- Write in **Plain English**; avoid regional idioms (*"do the needful," "prepone"*)
+- Format dates universally: **3 May 2026** (not 3/5/26, which is ambiguous)
 
-**4. Use strong verbs instead of noun phrases**
-- ❌ "We conducted an investigation of the failure."
-- ✅ "We investigated the failure."
+**Expanded (detailed notes):**
+- **Consistency matters more than "correctness" of one variety over another** — don't mix British ("colour") and American ("color") spelling in one document.
+- **Intelligibility** = how easily your English is understood by a global, non-native-speaking audience.
 
----
-
-## 8. Standard Varieties and Intelligibility
-
-### What Does "Standard English" Mean?
-English has many regional varieties (Indian English, British English, American English, etc.). Each is valid, but in **professional/international engineering contexts**, writers are expected to follow a **standard variety** — consistent grammar, spelling, and usage recognized globally.
-
-### Key Points
-- **Consistency matters more than "correctness" of one variety over another.** Don't mix British spelling ("colour") with American spelling ("color") in the same document.
-- **Intelligibility** = how easily your English is understood by a global audience, including non-native speakers.
-- Avoid heavy regional idioms, slang, or culturally specific references in international technical communication (e.g., "do the needful," "prepone") since they may confuse non-Indian readers.
-- Stick to **Standard Written English (SWE)**: clear grammar, neutral vocabulary, and widely recognized terms.
-
-### Examples of Regionalisms to Avoid in Formal/International Writing
 | Indian English | International Standard |
 |---|---|
 | "Prepone the meeting" | "Move the meeting earlier" |
@@ -228,23 +203,54 @@ English has many regional varieties (Indian English, British English, American E
 
 ---
 
-## 9. Proofreading and Self-Editing Fundamentals
+## 🟦 SESSION 4 — Punctuation for Clarity
 
-### Why Proofread?
-Even skilled writers make errors. Proofreading catches mistakes **before** your reader does.
+**Classic example (meaning changes with punctuation):**
+> *Let's eat teachers.* vs. *Let's eat, teachers.*
 
-### The Proofreading Process
-1. **Take a break** before proofreading — fresh eyes catch more errors.
-2. **Read aloud** — awkward sentences and missing words become obvious when spoken.
-3. **Check one type of error at a time:**
+### Key Punctuation Marks
+| Mark | Function | Example |
+|---|---|---|
+| Full Stop / Period (.) | Ends a declarative sentence | "The test passed." |
+| Comma (,) | Separates clauses/ideas/list items; signals a pause | She wanted to go for a walk, but it started raining. |
+| Semicolon (;) | Links two closely related complete sentences, no conjunction | The weather was terrible; nevertheless, we went hiking. |
+| Colon (:) | Introduces a list, explanation, example, or quote after a complete statement | There was only one problem: we were completely lost. |
+| Apostrophe (') | Shows possession or forms contractions | Sarah's book, don't |
+
+**Additional marks (detailed notes):**
+| Mark | Purpose | Example |
+|---|---|---|
+| Quotation Marks (" ") | Indicates exact words or a quoted term | The function is called `"main()"`. |
+| Hyphen (-) | Joins compound words | "Real-time system," "well-designed code" |
+| Parentheses ( ) | Adds extra, non-essential information | "The algorithm (developed in 2020) is still in use." |
+
+### Common Punctuation Mistakes (detailed notes)
+- **Comma splice** — joining two full sentences with only a comma:
+  - ❌ "The test failed, we need to debug it." → ✅ "The test failed; we need to debug it." / "The test failed, so we need to debug it."
+- **Missing comma after introductory phrase:**
+  - ❌ "After the update the system crashed." → ✅ "After the update, the system crashed."
+- **its vs. it's:** *its* = possessive ("The robot moved its arm."); *it's* = "it is" ("It's working correctly.")
+
+**Clarity Check (concluding point):** Proper punctuation + appropriate register → clear, meaningful writing → prevents misunderstanding → improves readability → builds strong professional relationships.
+
+---
+
+## [Extra — not tied to a session] Proofreading and Self-Editing Fundamentals
+
+**Why proofread:** Even skilled writers make errors; proofreading catches mistakes before your reader does.
+
+**The Proofreading Process:**
+1. Take a break before proofreading — fresh eyes catch more errors.
+2. Read aloud — awkward sentences and missing words become obvious when spoken.
+3. Check one type of error at a time:
    - Pass 1: Grammar and sentence structure
    - Pass 2: Punctuation
    - Pass 3: Spelling and word choice
    - Pass 4: Formatting and consistency
-4. **Read backwards (sentence by sentence)** for spelling checks — this breaks the flow of meaning and helps you focus purely on word accuracy.
-5. **Check for consistency:** Are terms, abbreviations, and formatting used the same way throughout?
+4. Read backwards (sentence by sentence) for spelling checks.
+5. Check for consistency in terms, abbreviations, and formatting.
 
-### Self-Editing Checklist
+**Self-Editing Checklist:**
 - [ ] Does every sentence have a clear subject and verb?
 - [ ] Are subject and verb in agreement (singular/plural)?
 - [ ] Are articles (a/an/the) used correctly?
@@ -256,49 +262,12 @@ Even skilled writers make errors. Proofreading catches mistakes **before** your 
 
 ---
 
-## 10. Using AI as an Accuracy Tutor
+## Quick Revision Summary (session-tagged, last-minute recall)
 
-AI tools (like Claude, ChatGPT, Grammarly, etc.) can be powerful learning partners for improving language accuracy — **if used correctly**.
+- **S1:** Accuracy = Impact. Formula: Expertise + Communication Discipline = Engineering Impact. Subject–verb agreement rule. *(+ Extra: sentence fundamentals — subject/verb, sentence types.)*
+- **S2:** Translate meaning, not words. Fix run-ons/fragments/dangling modifiers. Use AI to explain, not just correct. *(+ Extra: article/preposition/redundancy/tense/passive-voice error patterns.)*
+- **S3:** 4 Clarity Principles (One Idea/Sentence, Active vs Passive, Parallel Structure, Avoid Ambiguity) + Register (Formal/Neutral/Informal) + Concision (4 techniques) + Global English varieties.
+- **S4:** 5+ punctuation marks and their functions; punctuation changes meaning; comma splices and intro-phrase commas.
+- **Extra (no session):** Sentence fundamentals, common Indian/engineering English error patterns, proofreading & self-editing process.
 
-### Effective Ways to Use AI for Language Learning
-
-1. **Grammar checking with explanations**
-   - Don't just ask AI to "fix" your sentence — ask it to **explain** *why* the correction was made, so you learn the rule.
-   - Example prompt: *"Correct this sentence and explain the grammar rule: 'He don't like testing.'"*
-
-2. **Rewriting for register/tone**
-   - Ask AI to rewrite the same content in different registers (formal vs. informal) to understand tone differences.
-
-3. **Practice with common error patterns**
-   - Ask AI to generate practice sentences targeting your specific weak areas (e.g., article usage, prepositions).
-
-4. **Proofreading assistance, not replacement**
-   - Use AI to catch errors, but try to identify and understand them yourself first — this builds long-term skill rather than dependency.
-
-5. **Simplifying complex text**
-   - Ask AI to simplify a difficult technical passage to check your own understanding of concise, clear writing.
-
-### Cautions When Using AI
-- **Don't blindly trust AI output** — always cross-check important documents (reports, resumes) yourself or with a human reviewer.
-- **Understand the "why," not just the "what"** — the goal is to build your own skill, not to depend permanently on the tool.
-- **AI models can occasionally make mistakes** or apply overly formal/informal register — review context before using suggestions.
-
----
-
-## Quick Summary Table
-
-| Topic | One-Line Takeaway |
-|---|---|
-| Language Accuracy | Poor language undermines strong technical work. |
-| Sentence Fundamentals | Every sentence needs a subject + verb expressing a complete thought. |
-| Common Errors | Watch for article, preposition, agreement, and redundancy mistakes. |
-| Punctuation | Correct punctuation prevents misreading and confusion. |
-| Clarity | One idea per sentence; prefer active voice and concrete words. |
-| Register & Tone | Match formality level to your audience and purpose. |
-| Concision | Say more with fewer, stronger words. |
-| Standard Varieties | Use globally intelligible English in professional contexts. |
-| Proofreading | Multiple focused passes catch more errors than one general read. |
-| AI as Tutor | Use AI to learn rules, not just to fix mistakes silently. |
-
----
-*End of Module 1 Notes*
+**Likely exam angles:** definitions + one example each; correct-the-error questions (run-ons, fragments, dangling modifiers, subject-verb agreement, articles, prepositions); register identification for a given scenario; punctuation insertion/correction; short answer on "why clarity matters."

@@ -1,6 +1,4 @@
-# Module 4 — Number Theory & Cryptographic Foundations
-
-**Syllabus:** Divisibility · GCD · Euclidean algorithm · Primes · Modular arithmetic · CRT · Fermat · Euler · RSA · Diffie–Hellman · Discrete logarithms · Hash functions
+# Module-4 - Number Theory & Cryptography Mathematics 
 
 ---
 
@@ -79,11 +77,11 @@ $$a = bq + r, \qquad 0 \le r < b.$$
 3. $\gcd(a,a) = a$
 4. If $\gcd(a,b) = 1$, then $a$ and $b$ are **coprime** (relatively prime). *This condition appears again and again: modular inverses, CRT, Euler's theorem, RSA.*
 
-**LCM.** $\operatorname{lcm}(a,b)$ is the **smallest positive integer divisible by both** $a$ and $b$.
+**LCM.** $\mathrm{lcm}(a,b)$ is the **smallest positive integer divisible by both** $a$ and $b$.
 
 **Key relation (for positive integers):**
 
-$$\boxed{\gcd(a,b)\times\operatorname{lcm}(a,b) = a\,b}$$
+$$\boxed{\gcd(a,b)\times\mathrm{lcm}(a,b) = ab}$$
 
 So once you know the GCD (fast, via Euclid), the LCM is $\dfrac{ab}{\gcd(a,b)}$ — no need to list multiples.
 
@@ -94,16 +92,16 @@ So once you know the GCD (fast, via Euclid), the LCM is $\dfrac{ab}{\gcd(a,b)}$ 
 - Factors of 36: $1,2,3,4,6,9,12,18,36$
 - Common: $1,2,3,4,6,12$ → $\gcd(24,36) = \mathbf{12}$
 
-**Example 2 — LCM by listing multiples:** $\operatorname{lcm}(12,18)$
+**Example 2 — LCM by listing multiples:** $\mathrm{lcm}(12,18)$
 - Multiples of 12: $12,24,36,48,60,\dots$
 - Multiples of 18: $18,36,54,72,\dots$
-- First common: $\operatorname{lcm}(12,18) = \mathbf{36}$
+- First common: $\mathrm{lcm}(12,18) = \mathbf{36}$
 
-**Example 3 — checking the relation:** $\gcd(12,18)=6$, $\operatorname{lcm}=36$, and $6\times36 = 216 = 12\times18$ ✓
+**Example 3 — checking the relation:** $\gcd(12,18)=6$, $\mathrm{lcm}=36$, and $6\times36 = 216 = 12\times18$ ✓
 
 ## ❓ Questions in the module on this topic
 
-**Q-2.1 (Practice Problem 1, Session-17 Part-1)** Determine $\operatorname{lcm}(1492, 1066)$ if $\gcd(1492,1066)=2$.
+**Q-2.1 (Practice Problem 1, Session-17 Part-1)** Determine $\mathrm{lcm}(1492, 1066)$ if $\gcd(1492,1066)=2$.
 
 ---
 
@@ -166,7 +164,7 @@ The **Extended Euclidean Algorithm** finds such $x,y$ by running the Euclidean a
 
 **General solution of $ax+by=c$** (when $g=\gcd(a,b)\mid c$): if $(x_0,y_0)$ is one solution, then all solutions are
 
-$$x = x_0 + \frac{b}{g}\,t,\qquad y = y_0 - \frac{a}{g}\,t,\qquad t\in\mathbb Z.$$
+$$x = x_0 + \frac{b}{g}t,\qquad y = y_0 - \frac{a}{g}t,\qquad t\in\mathbb Z.$$
 
 ## 🧪 Examples
 
@@ -389,7 +387,7 @@ $$x\equiv a_1\ (\mathrm{mod}\ m_1),\ \ x\equiv a_2\ (\mathrm{mod}\ m_2),\ \dots,
 
 has a **unique** solution modulo $M=m_1m_2\cdots m_n$:
 
-$$\boxed{x\equiv\sum_{i=1}^{n}a_i\,M_i\,M_i^{-1}\pmod M},\qquad M_i=\frac{M}{m_i},\quad M_i^{-1}\text{ = inverse of }M_i\bmod m_i.$$
+$$\boxed{x\equiv\sum_{i=1}^{n}a_iM_iM_i^{-1}\pmod M},\qquad M_i=\frac{M}{m_i},\quad M_i^{-1}\text{ = inverse of }M_i\bmod m_i.$$
 
 **Procedure**
 1. Compute $M=\prod m_i$.
@@ -555,7 +553,7 @@ $$a^{n-1}\equiv1\pmod n.$$
 
 Since $ed\equiv1\pmod{\phi(n)}$, write $ed=1+k\phi(n)$. Then
 
-$$C^d=(M^e)^d=M^{ed}=M^{1+k\phi(n)}=M\,\big(M^{\phi(n)}\big)^k.$$
+$$C^d=(M^e)^d=M^{ed}=M^{1+k\phi(n)}=M\big(M^{\phi(n)}\big)^k.$$
 
 If $\gcd(M,n)=1$, Euler gives $M^{\phi(n)}\equiv1\pmod n$, so
 
@@ -687,7 +685,7 @@ $$h:\{0,1\}^*\to\{0,1\}^n.$$
 
 | # | Question | Topic |
 |---|----------|-------|
-| 1 | $\operatorname{lcm}(1492,1066)$ given $\gcd=2$ | 2 |
+| 1 | $\mathrm{lcm}(1492,1066)$ given $\gcd=2$ | 2 |
 | 2 | $\gcd(160,27)$ via the Division Algorithm | 3 |
 | 3 | $160x+27y=1$ (Extended Euclid) | 4 |
 | 4 | General solution of $1485x+1745y=15$ | 4 |
@@ -708,7 +706,7 @@ $$h:\{0,1\}^*\to\{0,1\}^n.$$
 
 ## 🧠 Quick formula sheet
 
-- $ab=\gcd(a,b)\cdot\operatorname{lcm}(a,b)$
+- $ab=\gcd(a,b)\cdot\mathrm{lcm}(a,b)$
 - Bézout: $ax+by=\gcd(a,b)$; solvable for $c$ iff $\gcd\mid c$
 - $a\equiv b\pmod m\iff m\mid(a-b)$
 - Inverse of $a$ mod $m$ exists iff $\gcd(a,m)=1$

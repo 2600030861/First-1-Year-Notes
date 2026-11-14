@@ -1,34 +1,26 @@
 # First-Year Notes
 
-A collection of notes for **B.Tech CSE 1st Year**, covering all major subjects and modules.
+A collection of notes for **B.Tech CSE 1st Year**, organised semester by semester and covering all major subjects and modules.
 
 ## 📚 Repository Contents
 
 ```text
 First-1-Year-Notes/
 │
-├── Human-Values-Notes/
-|   ├── All_Syllabus.md
-│   ├── Module1-Notes.md
-│   └── Module2-Notes.md
+├── Semester_1/
+│   ├── Human-Values-Notes/
+│   ├── Language-Skills-Notes/
+│   ├── Maths-Notes/
+│   └── PSPJ-JAVA-Notes/
 │
-├── Language-Skills-Notes/
-|   ├── All_Syllabus.md
-│   ├── Module1-Notes.md
-│   ├── Module2-Notes.md
-│   └── Module3-Notes.md
+├── Semester_2/
+│   ├── CSFE-CommunicationSkills/
+│   ├── DDCA-DgitalDigineAndComputerArchitecture/
+│   ├── DSA1-DataStructuresAndAlgorithms/
+│   ├── Japanese-ForeignLanguageProficiency/
+│   └── MTAI-MathematicsForAI/
 │
-├── Maths-Notes/
-|   ├── All_Syllabus.md
-│   ├── module1-notes.md
-│   ├── module2-notes.md
-│   └── module3-notes.md
-│
-├── PSPJ-JAVA-Notes/
-|   ├── All_Syllabus.md
-│   ├── Module1-Notes.md
-│   ├── Module2-Notes.md
-│   └── Module3-Notes.md
+├── Semester_3/
 │
 ├── .gitignore
 └── README.md
@@ -36,13 +28,40 @@ First-1-Year-Notes/
 
 ---
 
+## 🗂️ Subjects by Semester
+
+### Semester 1
+
+| Folder | Subject |
+|--------|---------|
+| `Human-Values-Notes` | Human Values |
+| `Language-Skills-Notes` | Language Skills |
+| `Maths-Notes` | Maths |
+| `PSPJ-JAVA-Notes` | PSPJ – Java |
+
+### Semester 2
+
+| Folder | Subject |
+|--------|---------|
+| `CSFE-CommunicationSkills` | Communication Skills (Listening, Speaking, Reading, Writing, Presentation) |
+| `DDCA-DgitalDigineAndComputerArchitecture` | Digital Design & Computer Architecture (DDCA) |
+| `DSA1-DataStructuresAndAlgorithms` | Data Structures & Algorithms – 1 (DSA-1) |
+| `Japanese-ForeignLanguageProficiency` | Japanese – Foreign Language Proficiency (JLPT N5 level) |
+| `MTAI-MathematicsForAI` | Mathematics for AI |
+
+### Semester 3
+
+Coming soon.
+
+---
+
 ## 🎯 Purpose
 
-This repository is intended to keep **B.Tech CSE 1st-year study material** organized in one place. The notes are written in Markdown so they can be easily read, edited, searched, and maintained using Git.
+This repository is intended to keep **B.Tech CSE 1st-year study material** organised in one place. The notes are written in Markdown so they can be easily read, edited, searched, and maintained using Git.
 
 ## 📝 Notes Format
 
-Each subject is divided into separate module files. Notes may include:
+Each subject is divided into separate module files, and each subject folder can include an `All_Syllabus.md` with the complete syllabus. Notes may include:
 
 - Important concepts and definitions
 - Theoretical explanations
@@ -55,15 +74,15 @@ Each subject is divided into separate module files. Notes may include:
 
 1. Clone the repository.
 2. Open the repository in a Markdown-compatible editor such as VS Code.
-3. Navigate to the required subject folder.
-4. Open the module you want to study.
+3. Open the required semester folder, then the subject folder.
+4. Read `All_Syllabus.md` for the syllabus, or open the module you want to study.
 5. Update or improve the notes as your course progresses.
 
 ## 🤝 Contributions
 
 If this repository is shared with classmates, contributions are welcome. Before committing changes:
 
-- Keep notes organized by subject and module.
+- Keep notes organised by semester, subject and module.
 - Use clear headings and Markdown formatting.
 - Avoid duplicate or incorrect information.
 - Keep filenames consistent.
@@ -71,6 +90,12 @@ If this repository is shared with classmates, contributions are welcome. Before 
 ## 📌 Status
 
 > **B.Tech CSE — 1st Year Notes**
+
+| Semester | Status |
+|----------|--------|
+| Semester 1 | Notes available |
+| Semester 2 | In progress |
+| Semester 3 | Not started |
 
 This repository is a work in progress and can be updated as new modules, subjects, and study material are added.
 

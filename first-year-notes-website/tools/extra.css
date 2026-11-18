@@ -1,0 +1,110 @@
+/* The extra CSS layer that is already merged into notes-website/css/style.css
+   (Semester 1 accent colours, blockquote + heading styles for converted Markdown,
+   and the Semester 3 "coming soon" panel). Kept here for reference: build_site.py
+   does not touch CSS. */
+
+/* ============================================================
+   style.css — appended layer
+   Adds the four Semester 1 accent colours, blockquote and
+   heading styles for converted Markdown, and the "coming soon"
+   panel used for Semester 3.
+   ============================================================ */
+
+/* ---------- Semester 1 accents ---------- */
+:root{
+  --rose:#a8324a;
+  --rose-soft:#f8e3e7;
+  --olive:#5c6b1f;
+  --olive-soft:#ecefdb;
+  --indigo:#3b3f8f;
+  --indigo-soft:#e6e6f6;
+  --teal:#0f6b6b;
+  --teal-soft:#dcf0ee;
+  --on-rose:#ffffff;
+  --on-olive:#ffffff;
+  --on-indigo:#ffffff;
+  --on-teal:#ffffff;
+}
+:root[data-theme="dark"]{
+  --rose:#e8909f;
+  --rose-soft:#33202a;
+  --olive:#bccb7a;
+  --olive-soft:#252a1a;
+  --indigo:#a3a6e8;
+  --indigo-soft:#22223a;
+  --teal:#6fc9c3;
+  --teal-soft:#132a2a;
+  --on-rose:#14110e;
+  --on-olive:#14110e;
+  --on-indigo:#14110e;
+  --on-teal:#14110e;
+}
+
+/* ---------- converted Markdown inside a section ---------- */
+.sec-body h3{
+  font-size:20px;line-height:1.25;margin:30px 0 10px;letter-spacing:-.005em;
+}
+.sec-body h3:first-child{margin-top:0}
+.sec-body h5,
+.sec-body h6{
+  font-family:var(--font-mono);font-size:11px;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--text-faint);margin:22px 0 8px;font-weight:700;
+}
+.sec-body blockquote{
+  margin:16px 0;padding:12px 16px;border-left:3px solid var(--acc,var(--accent));
+  background:color-mix(in srgb,var(--acc-soft,var(--accent-soft)) 40%,var(--surface));
+  border-radius:0 11px 11px 0;color:var(--text-dim);font-size:14px;
+}
+.sec-body blockquote p:last-child{margin-bottom:0}
+.sec-body blockquote strong{color:var(--text)}
+.sec-body ul ul,
+.sec-body ol ol,
+.sec-body ul ol,
+.sec-body ol ul{margin:6px 0 6px}
+.sec-body dl{margin:0 0 15px}
+.sec-body dt{font-weight:700;color:var(--text);margin-top:10px}
+.sec-body dd{margin:2px 0 0 18px;color:var(--text-dim)}
+.sec-body p code,
+.sec-body li code,
+.sec-body td code,
+.sec-body blockquote code{word-break:break-word}
+
+/* ---------- "coming soon" panel (Semester 3) ---------- */
+.soon-card{
+  border:1px dashed var(--border-strong);border-radius:16px;padding:22px 24px 18px;
+  background:
+    repeating-linear-gradient(135deg,transparent 0 9px,color-mix(in srgb,var(--surface2) 45%,transparent) 9px 18px),
+    var(--surface);
+}
+.soon-badge{
+  display:inline-block;font-family:var(--font-mono);font-size:9px;letter-spacing:1.6px;
+  text-transform:uppercase;font-weight:700;color:var(--gold);
+  background:var(--gold-soft);border-radius:999px;padding:4px 10px;margin-bottom:12px;
+}
+.soon-card h3{font-size:24px;line-height:1.2;margin-bottom:8px}
+.soon-card p{font-size:14px;color:var(--text-dim);max-width:70ch;margin-bottom:16px}
+.soon-list{list-style:none;padding:0;margin:0 0 16px;display:grid;gap:1px;background:var(--border);
+  border-radius:11px;overflow:hidden}
+.soon-list li{background:var(--surface);display:flex;gap:14px;align-items:baseline;
+  padding:10px 14px;margin:0;font-size:13px}
+.soon-list b{
+  font-family:var(--font-mono);font-size:9px;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--text-faint);font-weight:700;min-width:104px;flex-shrink:0;
+}
+.soon-list span{color:var(--text-dim)}
+.soon-foot{display:flex;gap:16px;flex-wrap:wrap;align-items:center;
+  font-family:var(--font-mono);font-size:10px;letter-spacing:.8px;text-transform:uppercase;font-weight:700}
+.soon-foot a{color:var(--text-dim)}
+.soon-foot a:hover{color:var(--accent);text-decoration:none}
+.soon-foot .soon-back{color:var(--accent)}
+
+/* ---------- nav: a semester that is not open yet ---------- */
+.topnav a.soon{opacity:.55}
+
+/* ---------- small screens ---------- */
+@media (max-width:700px){
+  .soon-card{padding:18px 16px 14px}
+  .soon-list li{flex-direction:column;gap:2px}
+  .soon-list b{min-width:0}
+  .sec-body h3{font-size:18px}
+}

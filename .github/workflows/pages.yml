@@ -1,4 +1,4 @@
-name: Deploy class-notes site to GitHub Pages
+name: Deploy notes site to GitHub Pages
 
 on:
   push:
@@ -17,14 +17,33 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
+      # the site folder, wherever it currently sits in the repo
+      - name: Find the site folder
+        id: site
+        run: |
+          for d in notes-website first-year-notes-website/notes-website; do
+            if [ -f "$d/index.html" ]; then
+              echo "Using $d"
+              echo "dir=$d" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+          echo "::error::No site folder found. Expected notes-website/index.html"
+          ls -1
+          exit 1
+
       - uses: actions/configure-pages@v5
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: notes-website
+          path: ${{ steps.site.outputs.dir }}
+
       - id: deployment
         uses: actions/deploy-pages@v4

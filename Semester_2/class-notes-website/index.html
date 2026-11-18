@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f3ee" id="themeColor">
+  <script>
+    /* set the theme before first paint so there is no flash of the wrong mode */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("sem2-theme"); } catch (e) { }
+      if (t !== "dark" && t !== "light") {
+        t = (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", t);
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.setAttribute("content", t === "dark" ? "#14110e" : "#f7f3ee");
+    })();
+  </script>
+  <title>Semester II · Class Notes</title>
+  <meta name="description"
+    content="Module-wise class notes for five second-semester B.Tech CSE subjects: DSA-1, Maths for AI, DDCA, English Communication and Japanese. Light and dark mode, works offline.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="home">
+  <div id="chrome"></div>
+
+  <div class="shell">
+    <header class="hero">
+      <div class="eyebrow">B.Tech CSE<span class="dot"></span>Semester 2<span class="dot"></span>2026</div>
+      <h1>Second semester,<br><em>explained like a friend</em></h1>
+      <p class="lede">Five subjects, six modules each, one page per module — plus the full syllabus of every
+        subject. Pick a subject, pick a chapter, read. Every module opens with a plain-language picture, then
+        the formula, then a worked example with a solution, then the traps, then practice questions.</p>
+      <div class="chips">
+        <span class="chip"><b>5</b> subjects</span>
+        <span class="chip"><b>30</b> modules</span>
+        <span class="chip"><b>5</b> syllabi</span>
+        <span class="chip"><b>light + dark</b></span>
+        <span class="chip"><b>works offline</b></span>
+      </div>
+    </header>
+
+    <section class="sec" id="subjects">
+      <div class="sec-head">
+        <div class="sec-num">01</div>
+        <div>
+          <div class="sec-kicker">Start here</div>
+          <h2>Pick a subject</h2>
+        </div>
+      </div>
+      <p class="sec-sub">Each subject opens on its six modules, with its full syllabus one click away. Your reading
+        progress is remembered on this device, so a tick stays next to a module you have finished.</p>
+
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          aria-hidden="true">
+          <circle cx="11" cy="11" r="7" />
+          <path d="m20 20-3.6-3.6" />
+        </svg>
+        <input type="search" id="search" placeholder="Search a topic — recursion, gradient, K-map, particles…"
+          autocomplete="off" aria-label="Search topics">
+      </div>
+      <div class="search-hits" id="hits"></div>
+
+      <div class="subj-grid" id="subjectGrid"></div>
+      <div id="stats"></div>
+    </section>
+
+    <section class="sec" id="structure">
+      <div class="sec-head">
+        <div class="sec-num">02</div>
+        <div>
+          <div class="sec-kicker">How it is laid out</div>
+          <h2>One tree, three levels</h2>
+        </div>
+      </div>
+      <p class="sec-sub">The site follows the same tree your syllabus does. Nothing is buried more than two clicks deep,
+        and every module ends with practice questions.</p>
+      <div class="flow">
+        <a class="flow-node" href="#subjects">
+          <span class="flow-k">Level 1</span>
+          <span class="flow-t">Home</span>
+          <span class="flow-d">What the site is, all five subjects, search</span>
+        </a>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <a class="flow-node" href="subject.html?id=dsa1">
+          <span class="flow-k">Level 2</span>
+          <span class="flow-t">Subject</span>
+          <span class="flow-d">Its six modules, with reading time, progress and the syllabus</span>
+        </a>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <a class="flow-node" href="module.html?id=dsa1&amp;m=1">
+          <span class="flow-k">Level 3</span>
+          <span class="flow-t">Module</span>
+          <span class="flow-d">The notes: eight parts, then practice questions</span>
+        </a>
+      </div>
+      <div class="flow-parts">
+        <span class="fp-k">Inside every module</span>
+        <span class="fp-t">big picture · basics · concepts · formulas · solved examples · traps · revision box ·
+          practice</span>
+        <span class="fp-k fp-k--gap">Before module 01</span>
+        <span class="fp-t">every subject starts with a <b>00 Syllabus</b> entry — the full unit list it is examined
+          on</span>
+      </div>
+    </section>
+
+    <section class="sec" id="how">
+      <div class="sec-head">
+        <div class="sec-num">03</div>
+        <div>
+          <div class="sec-kicker">Reading guide</div>
+          <h2>How to use these notes</h2>
+        </div>
+      </div>
+      <p class="sec-sub">These are revision notes, not a replacement for class. Used properly they cut a module down
+        to about fifteen minutes of reading.</p>
+      <div class="steps">
+        <div class="step"><span class="step-n">1</span>
+          <div>
+            <p><strong>Read the big picture first.</strong> Thirty seconds, one analogy. If that paragraph does not make
+              sense, the rest will not either — go back to the basics section above the concepts.</p>
+          </div>
+        </div>
+        <div class="step"><span class="step-n">2</span>
+          <div>
+            <p><strong>Work the examples with a pen.</strong> Every solved example has hidden steps written out with the
+              reason next to them. Reading them silently feels productive and teaches nothing.</p>
+          </div>
+        </div>
+        <div class="step"><span class="step-n">3</span>
+          <div>
+            <p><strong>Read the trap box before the exam.</strong> The trap boxes collect the exact places where marks
+              are lost: a base case, a sign, a particle, a unit.</p>
+          </div>
+        </div>
+        <div class="step"><span class="step-n">4</span>
+          <div>
+            <p><strong>Close the page and answer the practice questions.</strong> Answers are hidden behind each
+              question. Mark the module as read only after you can answer the medium ones without looking.</p>
+          </div>
+        </div>
+        <div class="step"><span class="step-n">5</span>
+          <div>
+            <p><strong>Finish a subject against its syllabus.</strong> Every subject page links to the syllabus it was
+              written from. Tick each sub-topic you can explain out loud — that is a better exam check than re-reading
+              the notes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footHost"></div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
